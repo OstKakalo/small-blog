@@ -11,6 +11,12 @@
 		112DE3471EA8993F006AAD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112DE3451EA8993F006AAD9A /* Main.storyboard */; };
 		112DE3491EA8993F006AAD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112DE3481EA8993F006AAD9A /* Assets.xcassets */; };
 		112DE34C1EA8993F006AAD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112DE34A1EA8993F006AAD9A /* LaunchScreen.storyboard */; };
+		112DE35B1EA8AA52006AAD9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE35A1EA8AA52006AAD9A /* MainViewController.swift */; };
+		112DE35D1EA8AC97006AAD9A /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE35C1EA8AC97006AAD9A /* DiscoverViewController.swift */; };
+		112DE35F1EA8ACA5006AAD9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE35E1EA8ACA5006AAD9A /* HomeViewController.swift */; };
+		112DE3611EA8ACB0006AAD9A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE3601EA8ACB0006AAD9A /* MessageViewController.swift */; };
+		112DE3631EA8ACBC006AAD9A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE3621EA8ACBC006AAD9A /* ProfileViewController.swift */; };
+		112DE3651EA8AD2D006AAD9A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE3641EA8AD2D006AAD9A /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		112DE3481EA8993F006AAD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112DE34B1EA8993F006AAD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112DE34D1EA8993F006AAD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112DE35A1EA8AA52006AAD9A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../../MainViewController.swift; sourceTree = "<group>"; };
+		112DE35C1EA8AC97006AAD9A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverViewController.swift; path = ../../../../DiscoverViewController.swift; sourceTree = "<group>"; };
+		112DE35E1EA8ACA5006AAD9A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../HomeViewController.swift; sourceTree = "<group>"; };
+		112DE3601EA8ACB0006AAD9A /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = ../../../../MessageViewController.swift; sourceTree = "<group>"; };
+		112DE3621EA8ACBC006AAD9A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../../ProfileViewController.swift; sourceTree = "<group>"; };
+		112DE3641EA8AD2D006AAD9A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +77,11 @@
 		112DE3531EA8A089006AAD9A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				112DE3591EA8A145006AAD9A /* Profile */,
+				112DE3541EA8A093006AAD9A /* Main */,
 				112DE3551EA8A09C006AAD9A /* Discover */,
 				112DE3571EA8A0CE006AAD9A /* Home */,
-				112DE3541EA8A093006AAD9A /* Main */,
 				112DE3581EA8A0DA006AAD9A /* Message */,
+				112DE3591EA8A145006AAD9A /* Profile */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -77,6 +89,8 @@
 		112DE3541EA8A093006AAD9A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				112DE35A1EA8AA52006AAD9A /* MainViewController.swift */,
+				112DE3641EA8AD2D006AAD9A /* BaseNavigationController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -84,6 +98,7 @@
 		112DE3551EA8A09C006AAD9A /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				112DE35C1EA8AC97006AAD9A /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -91,6 +106,7 @@
 		112DE3571EA8A0CE006AAD9A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				112DE35E1EA8ACA5006AAD9A /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -98,6 +114,7 @@
 		112DE3581EA8A0DA006AAD9A /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				112DE3601EA8ACB0006AAD9A /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -105,8 +122,9 @@
 		112DE3591EA8A145006AAD9A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				112DE3621EA8ACBC006AAD9A /* ProfileViewController.swift */,
 			);
-			name = Profile;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DE3631EA8ACBC006AAD9A /* ProfileViewController.swift in Sources */,
+				112DE3651EA8AD2D006AAD9A /* BaseNavigationController.swift in Sources */,
+				112DE35D1EA8AC97006AAD9A /* DiscoverViewController.swift in Sources */,
 				112DE3421EA8993F006AAD9A /* AppDelegate.swift in Sources */,
+				112DE35B1EA8AA52006AAD9A /* MainViewController.swift in Sources */,
+				112DE35F1EA8ACA5006AAD9A /* HomeViewController.swift in Sources */,
+				112DE3611EA8ACB0006AAD9A /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmallBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.SmallBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmallBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.SmallBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
