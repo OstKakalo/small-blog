@@ -10,21 +10,22 @@ import UIKit
 
 class MainViewController: UITabBarController {
 
+    private lazy var imageNames = ["tabbar_home_high", "tabbar_message_high", "", "tabbar_discover_high", "tabbar_profile_high"];
     override func viewDidLoad() {
         super.viewDidLoad()
-        addChildViewController(HomeViewController(), title: "首页", imageName: "tabbar_home", selectedImage: "tabbar_home_high")
-        addChildViewController(MessageViewController(), title: "消息", imageName: "tabbar_message", selectedImage: "tabbar_message_high")
-        addChildViewController(DiscoverViewController(), title: "发现", imageName: "tabbar_discover", selectedImage: "tabbar_discover_high")
-        addChildViewController(MessageViewController(), title: "我", imageName: "tabbar_profile", selectedImage: "tabbar_profile_high")
+    
+        
     }
     
-    // private当前文件才能访问
-    private func addChildViewController(_ childVc: UIViewController, title: String, imageName: String, selectedImage: String) {
-        childVc.title = title
-        childVc.tabBarItem.image = UIImage(named: imageName)
-        childVc.tabBarItem.selectedImage = UIImage(named: selectedImage)
-        let childNav = BaseNavigationController(rootViewController: childVc)
-        addChildViewController(childNav)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        for i in 0..<tabBar.items!.count {
+            let item = tabBar.items![i]
+            if i == 2 {
+                item.isEnabled = false
+                continue
+            }
+            item.selectedImage = UIImage(named: imageNames[i])
+        }
     }
-
 }

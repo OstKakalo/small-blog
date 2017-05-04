@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110032BE1EB348B200FDECB9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110032BC1EB348B200FDECB9 /* Home.storyboard */; };
+		110032C01EB3492A00FDECB9 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110032BF1EB3492A00FDECB9 /* Message.storyboard */; };
+		110032C31EB3494A00FDECB9 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110032C11EB3494A00FDECB9 /* Discover.storyboard */; };
+		110032C51EB3495C00FDECB9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110032C41EB3495C00FDECB9 /* Profile.storyboard */; };
+		110032C81EB34C4C00FDECB9 /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110032C61EB34C4C00FDECB9 /* Null.storyboard */; };
 		112DE3421EA8993F006AAD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DE3411EA8993F006AAD9A /* AppDelegate.swift */; };
 		112DE3471EA8993F006AAD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112DE3451EA8993F006AAD9A /* Main.storyboard */; };
 		112DE3491EA8993F006AAD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112DE3481EA8993F006AAD9A /* Assets.xcassets */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110032BD1EB348B200FDECB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		110032BF1EB3492A00FDECB9 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Message.storyboard; path = ../../Message.storyboard; sourceTree = "<group>"; };
+		110032C21EB3494A00FDECB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Discover.storyboard; sourceTree = "<group>"; };
+		110032C41EB3495C00FDECB9 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../Profile.storyboard; sourceTree = "<group>"; };
+		110032C71EB34C4C00FDECB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Null.storyboard; sourceTree = "<group>"; };
 		112DE33E1EA8993F006AAD9A /* SmallBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112DE3411EA8993F006AAD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112DE3461EA8993F006AAD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +80,7 @@
 				112DE34D1EA8993F006AAD9A /* Info.plist */,
 				112DE34A1EA8993F006AAD9A /* LaunchScreen.storyboard */,
 				112DE3451EA8993F006AAD9A /* Main.storyboard */,
+				110032C61EB34C4C00FDECB9 /* Null.storyboard */,
 			);
 			path = SmallBlog;
 			sourceTree = "<group>";
@@ -99,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				112DE35C1EA8AC97006AAD9A /* DiscoverViewController.swift */,
+				110032C11EB3494A00FDECB9 /* Discover.storyboard */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -107,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				112DE35E1EA8ACA5006AAD9A /* HomeViewController.swift */,
+				110032BC1EB348B200FDECB9 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -115,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				112DE3601EA8ACB0006AAD9A /* MessageViewController.swift */,
+				110032BF1EB3492A00FDECB9 /* Message.storyboard */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -123,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				112DE3621EA8ACBC006AAD9A /* ProfileViewController.swift */,
+				110032C41EB3495C00FDECB9 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -187,8 +202,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				112DE34C1EA8993F006AAD9A /* LaunchScreen.storyboard in Resources */,
+				110032C81EB34C4C00FDECB9 /* Null.storyboard in Resources */,
 				112DE3491EA8993F006AAD9A /* Assets.xcassets in Resources */,
+				110032C01EB3492A00FDECB9 /* Message.storyboard in Resources */,
 				112DE3471EA8993F006AAD9A /* Main.storyboard in Resources */,
+				110032BE1EB348B200FDECB9 /* Home.storyboard in Resources */,
+				110032C51EB3495C00FDECB9 /* Profile.storyboard in Resources */,
+				110032C31EB3494A00FDECB9 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +232,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		110032BC1EB348B200FDECB9 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110032BD1EB348B200FDECB9 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		110032C11EB3494A00FDECB9 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110032C21EB3494A00FDECB9 /* Base */,
+			);
+			name = Discover.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		110032C61EB34C4C00FDECB9 /* Null.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110032C71EB34C4C00FDECB9 /* Base */,
+			);
+			name = Null.storyboard;
+			sourceTree = "<group>";
+		};
 		112DE3451EA8993F006AAD9A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -331,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmallBlog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.SmallBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -344,7 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmallBlog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.SmallBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
