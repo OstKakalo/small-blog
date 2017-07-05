@@ -34,7 +34,14 @@ class MainViewController: UITabBarController {
 extension MainViewController {
     func setComposeBtn() {
         tabBar.addSubview(composeBtn)
-        
         composeBtn.center = CGPoint(x: tabBar.center.x, y: tabBar.bounds.size.height * 0.5)
+        composeBtn.addTarget(self, action: Selector("composeBtnClick"), for: .touchUpInside)
+    }
+}
+
+// MARK:- 事件
+extension MainViewController {
+    @objc private func composeBtnClick() {
+        print("gg")
     }
 }

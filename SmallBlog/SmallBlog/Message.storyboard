@@ -12,7 +12,7 @@
         <!--消息-->
         <scene sceneID="l76-zg-dtT">
             <objects>
-                <tableViewController id="6Rs-bn-AR0" sceneMemberID="viewController">
+                <tableViewController id="6Rs-bn-AR0" customClass="MessageViewController" customModule="SmallBlog" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PyL-88-7fX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

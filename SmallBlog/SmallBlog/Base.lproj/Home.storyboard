@@ -12,7 +12,7 @@
         <!--首页-->
         <scene sceneID="oGi-3C-9gP">
             <objects>
-                <tableViewController id="LDm-Hz-oB2" sceneMemberID="viewController">
+                <tableViewController id="LDm-Hz-oB2" customClass="HomeViewController" customModule="SmallBlog" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Lr-0q-fhu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
